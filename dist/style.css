@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+html{
+  font-family:'Baloo Tammudu 2', sans-serif;
+  font-size:16px;
+  background-color:#202020;
+}
+
+#quote-box{
+  background-color:#008080;
+  height:45vh;
+  width:50vw;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius:1rem;
+}
+@media (max-width:600px){
+  #quote-box{
+    font-size:16px;
+    height:50vh;
+    width:80vw;
+  }
+}
+#text-container{
+  width:100%;
+  height:50%
+}
+#text{
+  color:white;
+  font-size:1.5rem;
+  
+}
+#author{
+  color:white;
+  font-size:1rem;
+}
+#tweet-quote{
+  display:block;
+  color:white;
+}
+#new-quote{
+  height:2rem;
+  background-color:#73333B;
+  color:white;
+  font-family:'Baloo Tammudu 2', sans-serif;
+  margin-top:1rem;
+  font-weight:bold;
+  font-size:1.1rem;
+  
+}
